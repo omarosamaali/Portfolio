@@ -886,6 +886,7 @@ section {
   .about-stats .progress-bars {
     grid-template-columns: repeat(1, 1fr);
   }
+  
 
   .portfolios {
     grid-template-columns: repeat(1, 1fr);
