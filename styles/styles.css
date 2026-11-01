@@ -24,6 +24,12 @@ html {
   scroll-behavior: smooth;
 }
 
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 body {
   font-family: "Manrope", sans-serif;
   background:
@@ -102,8 +108,9 @@ ol {
 .hero,
 .section,
 .site-footer {
-  width: min(var(--max), calc(100% - var(--pad) * 2));
+  width: min(100%, var(--max));
   margin-inline: auto;
+  padding-inline: var(--pad);
 }
 
 .nav-bar {
@@ -194,7 +201,8 @@ ol {
 }
 
 .hero {
-  padding: clamp(1.5rem, 4vw, 3.5rem) 0 clamp(2.5rem, 6vw, 4.5rem);
+  padding-block: clamp(1.5rem, 4vw, 3.5rem) clamp(2.5rem, 6vw, 4.5rem);
+  overflow: hidden;
 }
 
 .hero-grid {
@@ -208,6 +216,7 @@ ol {
   position: relative;
   margin: 0;
   max-width: 420px;
+  overflow: hidden;
 }
 
 .portrait img {
@@ -224,8 +233,9 @@ ol {
 
 .portrait-rings {
   position: absolute;
-  inset: -8% -6% auto auto;
-  width: 78%;
+  top: 4%;
+  right: 0;
+  width: 72%;
   aspect-ratio: 1;
   border-radius: 50%;
   background:
@@ -329,7 +339,7 @@ h1 {
 }
 
 .section {
-  padding: clamp(3.2rem, 7vw, 5.5rem) 0;
+  padding-block: clamp(3.2rem, 7vw, 5.5rem);
   scroll-margin-top: calc(var(--header) + 12px);
 }
 
@@ -384,7 +394,7 @@ h1 {
   background: var(--bg-soft);
   border: 1px solid transparent;
   font-weight: 700;
-  white-space: nowrap;
+  min-width: 0;
 }
 
 .tech-grid img {
@@ -674,7 +684,7 @@ h1 {
   justify-content: space-between;
   gap: 1rem;
   flex-wrap: wrap;
-  padding: 1.4rem 0 2rem;
+  padding-block: 1.4rem 2rem;
   color: var(--muted);
   border-top: 1px solid var(--line);
 }
@@ -702,6 +712,10 @@ h1 {
 }
 
 @media (max-width: 760px) {
+  :root {
+    --pad: 16px;
+  }
+
   .nav-toggle {
     display: inline-block;
   }
@@ -738,7 +752,7 @@ h1 {
   .work-grid,
   .stat-grid,
   .tech-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
