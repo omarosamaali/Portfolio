@@ -3,844 +3,547 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eng Omar</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <meta name="description"
+        content="Omar Osama Ali is a full-stack developer in Alexandria building web, mobile, and commerce products with React, Angular, Vue, .NET, Laravel, Node.js, Python, Flutter, WordPress, and Shopify.">
+    <meta name="theme-color" content="#070b14">
+    <title>Omar Osama Ali — Full-Stack Developer</title>
+    <link rel="icon" href="Image.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="icon" href="img/myimage.jpeg" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
-<body class="main-content">
-    <header class="container header active" id="home">
-        <div class="header-content">
-            <div class="left-header">
-                <div class="h-shape"></div>
-                <div class="image">
-                    <img src="img/myimage.jpeg" alt="">
-                </div>
-            </div>
-            <div class="right-header">
-                <h1 class="name">
-                    Hi, I'm <span>Omar Osama Ali.</span>
-                    A Web Developer.
-                </h1>
-                <p>
-                    I'm a Web Developer, I love to create beautiful and functional websites.
-                    <br>
-                    I have extensive experience in dealing with many libraries and frameworks
-                    I have an enthusiasm to learn everything new and develop my skills
-                <div class="container-btns">
-                    <div class="btn-con">
-                        <a href="CV-Omar.pdf" download="CV-Omar.pdf" class="main-btn">
-                            <span class="btn-text">Download CV</span>
-                            <span class="btn-icon"><i class="fa fa-download" aria-hidden="true"></i></span>
-                        </a>
-                    </div>
-                    <div class="container-btns" id="social-btns">
-                        <div class="btn-con rm-margin add-book">
-                            <a href="https://www.linkedin.com/in/omarosama19/" target="_blank" class="main-btn">
-                                <span class="btn-icon"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></span>
-                            </a>
-                        </div>
-                        <div class="btn-con rm-margin">
-                            <a href="https://github.com/omarosamaali" target="_blank" class="main-btn">
-                                <span class="btn-icon"><i class="fa-brands fa-github" aria-hidden="true"></i></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-            </div>
+    <header class="site-header" id="top">
+        <div class="nav-bar">
+            <a class="brand" href="#top">
+                <span class="brand-mark">OA</span>
+                <span class="brand-text">Omar Osama</span>
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+                <span class="sr-only">Open menu</span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="site-nav" id="site-nav">
+                <a href="#stack">Technologies</a>
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+                <a class="nav-cv" href="CV-Omar.pdf" download="CV-Omar.pdf">Download CV</a>
+            </nav>
         </div>
     </header>
-    <main>
-        <section class="container about" id="about">
-            <div class="main-title">
-                <h2>About <span>me</span></h2>
-            </div>
-            <div class="about-container">
-                <div class="left-about">
-                    <h4>Information About me</h4>
-                    <p>
-                        ✅
-                        I am a passionate and committed Software Developer who delivers amazing and creative user
-                        experiences. With a background in web development using the latest web technologies like HTML5,
-                        CSS3, and JavaScript, Angular, ReactJS, VueJS,
-                        <br>
+
+    <main id="main">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-grid">
+                <figure class="portrait">
+                    <div class="portrait-rings" aria-hidden="true"></div>
+                    <img src="Image.png" alt="Omar Osama Ali in a dark suit against a blue studio background">
+                </figure>
+                <div class="hero-copy">
+                    <p class="eyebrow">Full-Stack Developer · Alexandria, Egypt</p>
+                    <h1 id="hero-title">Omar Osama Ali</h1>
+                    <p class="lede">
+                        I design and ship complete products: interfaces people enjoy using, APIs that stay fast,
+                        and mobile and commerce builds that go to production.
                     </p>
-                    <div class="btn-con">
-                        <a href="CV-Omar.pdf" download="CV-Omar.pdf" class="main-btn">
-                            <span class="btn-text">Download CV</span>
-                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    <ul class="hero-points">
+                        <li>6+ years across web, mobile, and backend</li>
+                        <li>React, Angular, Vue, Flutter, and React Native</li>
+                        <li>.NET, Laravel, Node.js, and Python</li>
+                    </ul>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#work">View selected work</a>
+                        <a class="btn btn-ghost" href="CV-Omar.pdf" download="CV-Omar.pdf">
+                            <i class="fa-solid fa-download" aria-hidden="true"></i>
+                            Download CV
+                        </a>
+                        <a class="btn btn-icon" href="https://www.linkedin.com/in/omarosama19/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                        </a>
+                        <a class="btn btn-icon" href="https://github.com/omarosamaali" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fa-brands fa-github" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
-                <div class="right-about">
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">20+</p>
-                            <p class="small-text">Projects <br /> Completed</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">4+</p>
-                            <p class="small-text">Years of <br /> experience</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">100+</p>
-                            <p class="small-text">Happy <br /> Clients</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">200+</p>
-                            <p class="small-text">Customer <br /> reviews</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="about-stats">
-                <h4 class="stat-title">My Skills</h4>
-                <div class="progress-bars">
-                    <div class="progress-bar">
-                        <p class="prog-title">html5</p>
-                        <div class="progress-con">
-                            <p class="prog-text">99%</p>
-                            <div class="progress">
-                                <span class="html"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">css3</p>
-                        <div class="progress-con">
-                            <p class="prog-text">95%</p>
-                            <div class="progress">
-                                <span class="css"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">javascript</p>
-                        <div class="progress-con">
-                            <p class="prog-text">95%</p>
-                            <div class="progress">
-                                <span class="js"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">ReactJS</p>
-                        <div class="progress-con">
-                            <p class="prog-text">85%</p>
-                            <div class="progress">
-                                <span class="react"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">VueJS</p>
-                        <div class="progress-con">
-                            <p class="prog-text">90%</p>
-                            <div class="progress">
-                                <span class="node"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Angular</p>
-                        <div class="progress-con">
-                            <p class="prog-text">90%</p>
-                            <div class="progress">
-                                <span class="python"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Bootsrap5</p>
-                        <div class="progress-con">
-                            <p class="prog-text">90%</p>
-                            <div class="progress">
-                                <span class="node"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">TailWindCSS</p>
-                        <div class="progress-con">
-                            <p class="prog-text">94%</p>
-                            <div class="progress">
-                                <span class="python"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Git</p>
-                        <div class="progress-con">
-                            <p class="prog-text">98%</p>
-                            <div class="progress">
-                                <span class="node"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">GitHub</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span class="python"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Wordpress</p>
-                        <div class="progress-con">
-                            <p class="prog-text">90%</p>
-                            <div class="progress">
-                                <span class="node"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Shopify</p>
-                        <div class="progress-con">
-                            <p class="prog-text">94%</p>
-                            <div class="progress">
-                                <span class="python"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">APIs</p>
-                        <div class="progress-con">
-                            <p class="prog-text">98%</p>
-                            <div class="progress">
-                                <span class="node"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">OOP</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span class="python"></span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <h4 class="stat-title">My Timeline</h4>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2021 - 2022</p>
-                    <h5>Junior Web Developer<span> - E-vovle Tech System Inc</span></h5>
-                    <p>
-                        I was the person responsible for front-end development for the entire company
-                        I have done many complex projects
-
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2020 - 2021</p>
-                    <h5>Intern Web Developer<span> - Rowmah ADS</span></h5>
-                    <p>
-                        I worked as a front-end developer for Rowmah ADS Company and was responsible for improving and
-                        developing the appearance of many projects
-                    </p>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2022 - 2023</p>
-                    <h5>Mid-Level Web Developer<span> - AM Digital Solutions Inc</span></h5>
-                    <p>
-                        Working on many complex projects and interacting with an excellent team, which led to improving
-                        the performance of many
-                        sites
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2023 - 2024</p>
-                    <h5>Mid-Level Web Developer<span> - Kepixel</span></h5>
-                    <p>
-                        I worked as a mid-level web developer for Kepixel Company and was responsible for improving and
-                        developing the appearance of many projects
-                    </p>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2024 - 2025</p>
-                    <h5>Senior Web Developer<span> - AI Design Studio</span></h5>
-                    <p>
-                        I was the person responsible for front-end development for the entire company
-                        I have done many complex projects
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2022 - 2024</p>
-                    <h5>Web Developer<span> - Rowmah ADS</span></h5>
-                    <p>
-                        I worked as a front-end developer for Roma Company and was responsible for improving and
-                        developing the appearance of many projects
-                    </p>
-                </div>
             </div>
         </section>
 
-        <section class="container" id="portfolio">
-            <div class="main-title">
-                <h2>My <span>Portfolio</span></h2>
-            </div>
-            <p class="port-text">
-                Here is some of my work that I've done in various programming languages.
-            </p>
-            <h2>HTML & CSS Projects</h2>
-            <div class="portfolios" style="margin-top: 15px; margin-bottom: 30px;">
-
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/project5.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Dashboard Admin <br> Source :</h3>
-                        <div class="icons">
-                            <a href="https://omarosamaali.github.io/DashPro/" target="_blank" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/Screenshot (3747).png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Kasper Creations <br> Link Website :</h3>
-                        <div class="icons">
-                            <a href="https://omarosamaali.github.io/Kasper-Creations/" target="_blank" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/Screenshot (3748).png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Dragon's Tale <br> Source :</h3>
-                        <div class="icons">
-                            <a href="https://omarosamaali.github.io/Dragon-s-Tale/" target="_blank" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/Screenshot (3749).png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Evolve Social <br> Link Website :</h3>
-                        <div class="icons">
-                            <a href="https://omarosamaali.github.io/Evolve-Social/" target="_blank" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/Screenshot (3750).png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Template Definitions <br> Link Website :</h3>
-                        <div class="icons">
-                            <a href="https://omarosamaali.github.io/Template-Definitions/" target="_blank" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/Screenshot (3751).png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Leon Agency <br> Link Website :</h3>
-                        <div class="icons">
-                            <a href="https://omarosamaali.github.io/Leon-Agency/" target="_blank" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-            <h2>JavaScript Projects</h2>
-            <div class="portfolios" style="margin-top: 15px; margin-bottom: 20px;">
-
-
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/project3.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Moving Model<br>
-                            Source :</h3>
-                        <div class="icons">
-                            <a href="https://omarosamaali.github.io/Moving-Model/" target="_blank" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/project4.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>e-Commerce <br>
-                            Source :</h3>
-                        <div class="icons">
-                            <a href="https://omarosamaali.github.io/Electronic-Commerce/" target="_blank" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/project6.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>CRUD App <br> Source :</h3>
-                        <div class="icons">
-                            <a href="https://omarosamaali.github.io/CRUDMaster/" target="_blank" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <h2>Angular Projects</h2>
-            <div class="portfolios" style="margin-top: 15px; margin-bottom: 20px;">
-
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/project1.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Gym App <br>
-                            Source :
-                        </h3>
-                        <div class="icons">
-                            <a href="https://gym-coach-website.netlify.app/" target="_blank" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/angular-project.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Real Estate <br> Link Website :</h3>
-                        <div class="icons">
-                            <a href="https://angular-real-estate.netlify.app/" target="_blank" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/Screenshot (3744).png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Watches Of Dubai <br> Link Website :</h3>
-                        <div class="icons">
-                            <a href="https://dilimisourcing.myshopify.com/" target="_blank" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+        <section class="section" id="stack" aria-labelledby="stack-title">
+            <div class="section-head">
+                <p class="eyebrow">Stack</p>
+                <h2 id="stack-title">Technologies I work with</h2>
+                <p>The same stacks I use on client and product work, from mobile apps to commerce storefronts and backend APIs.</p>
             </div>
 
-            <h2>React & Next Projects</h2>
-            <div class="portfolios" style="margin-top: 15px; margin-bottom: 20px;">
+            <div class="stack-groups">
+                <article class="stack-group">
+                    <h3>Frontend</h3>
+                    <ul class="tech-grid">
+                        <li>
+                            <img src="https://cdn.simpleicons.org/html5/E34F26" alt="" width="32" height="32">
+                            <span>HTML5</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn.simpleicons.org/css/1572B6" alt="" width="32" height="32">
+                            <span>CSS3</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="" width="32" height="32">
+                            <span>JavaScript</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn.simpleicons.org/react/61DAFB" alt="" width="32" height="32">
+                            <span>React</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn.simpleicons.org/angular/DD0031" alt="" width="32" height="32">
+                            <span>Angular</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn.simpleicons.org/vuedotjs/4FC08D" alt="" width="32" height="32">
+                            <span>Vue.js</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn.simpleicons.org/bootstrap/7952B3" alt="" width="32" height="32">
+                            <span>Bootstrap</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" alt="" width="32" height="32">
+                            <span>Tailwind CSS</span>
+                        </li>
+                    </ul>
+                </article>
 
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/React-project.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Health Care <br>
-                            Source :
-                        </h3>
-                        <div class="icons">
-                            <a href="https://healthallcare.netlify.app/" target="_blank" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
+                <article class="stack-group">
+                    <h3>Mobile</h3>
+                    <ul class="tech-grid">
+                        <li>
+                            <img src="https://cdn.simpleicons.org/react/61DAFB" alt="" width="32" height="32">
+                            <span>React Native</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn.simpleicons.org/flutter/47C5FB" alt="" width="32" height="32">
+                            <span>Flutter</span>
+                        </li>
+                    </ul>
+                </article>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/p-7.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Start Travel <br> Link Website :</h3>
-                        <div class="icons">
-                            <a href="https://vue-realestate-website.netlify.app/" target="_blank" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/react-p.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Watches Of Dubai <br> Link Website :</h3>
-                        <div class="icons">
-                            <a href="https://teacherivanenglish.com/" target="_blank" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                <article class="stack-group">
+                    <h3>Backend</h3>
+                    <ul class="tech-grid">
+                        <li>
+                            <img src="https://cdn.simpleicons.org/nodedotjs/5FA04E" alt="" width="32" height="32">
+                            <span>Node.js</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn.simpleicons.org/laravel/FF2D20" alt="" width="32" height="32">
+                            <span>Laravel</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn.simpleicons.org/dotnet/512BD4" alt="" width="32" height="32">
+                            <span>.NET</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn.simpleicons.org/python/3776AB" alt="" width="32" height="32">
+                            <span>Python</span>
+                        </li>
+                    </ul>
+                </article>
 
-            <h2>Vue & Nuxt Projects</h2>
-            <div class="portfolios" style="margin-top: 15px; margin-bottom: 20px;">
-
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/vue-project.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>KePixel <br>
-                            Source :
-                        </h3>
-                        <div class="icons">
-                            <a href="https://kepixel.com/" target="_blank" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/Screenshot (3774).png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Evolve Tech <br> Link Website :</h3>
-                        <div class="icons">
-                            <a href="https://evolvetechsys.com/" target="_blank" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/Screenshot (3777).png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Memory Game <br> Link Website :</h3>
-                        <div class="icons">
-                            <a href="https://memory-1game.netlify.app/" target="_blank" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <h2>Wordpress & Shopify Projects</h2>
-            <div class="portfolios" style="margin-top: 15px; margin-bottom: 20px;">
-
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/Screenshot (3778).png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>WeData Agency <br>
-                            Source :
-                        </h3>
-                        <div class="icons">
-                            <a href="https://wedata.agency/" target="_blank" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/Screenshot (3779).png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Baby Yummy <br> Link Website :</h3>
-                        <div class="icons">
-                            <a href="https://baby-yummy.com/ar/" target="_blank" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/Screenshot (3780).png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Safy Muscle <br> Link Website :</h3>
-                        <div class="icons">
-                            <a href="https://safymuscle.com/" target="_blank" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <section class="container" id="blogs">
-            <div class="blogs-content">
-                <div class="main-title">
-                    <h2>My <span>Blogs</span></h2>
-                </div>
-                <div class="blogs">
-                    <div class="blog">
-                        <img src="img/port6.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>How to Create Your Own Website</h4>
-                            <p>Are you ready to build your online presence? Learn how to create your own website from
-                                scratch with our comprehensive guide. From selecting the right domain name to designing
-                                captivating web pages, we'll walk you through every step of the process. Get started
-                                today and showcase your ideas to the world!</p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/blog1.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>How to Become an Expert in Web Design</h4>
-                            <p>Ready to take your web design skills to the next level? Dive deep into advanced
-                                techniques and best practices with our expert-led courses. From mastering CSS animations
-                                to understanding user experience principles, you'll gain the knowledge and confidence to
-                                tackle any design challenge. Start your journey to becoming a web design pro today!</p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/blog2.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>Become a Web Designer in 10 Days</h4>
-                            <p>Want to kickstart your career as a web designer? Join our intensive 10-day bootcamp and
-                                learn the essentials of web design from industry professionals. From wireframing
-                                concepts to building responsive layouts, you'll gain hands-on experience and valuable
-                                insights that will set you apart in the competitive field of web design. Enroll now and
-                                launch your dream career!</p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/blog3.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>Debugging Made Easy with Web Inspector</h4>
-                            <p>Struggling to find bugs in your code? Discover the power of Web Inspector and streamline
-                                your debugging process. With advanced features like real-time code inspection and
-                                performance analysis, you'll uncover hidden issues and optimize your web applications
-                                for peak performance. Say goodbye to frustrating bugs and hello to smooth sailing!</p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/port1.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>Get Started with Web Design and UI Design</h4>
-                            <p>Ready to explore the world of web and UI design? Dive into our beginner-friendly guide
-                                and learn the fundamentals of design theory, color theory, and typography. With hands-on
-                                projects and practical exercises, you'll develop the skills and confidence to create
-                                stunning user interfaces that captivate audiences and drive engagement. Start your
-                                design journey today!</p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/port3.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>This is What You Need to Know About Web Design</h4>
-                            <p>Curious about the world of web design? Join us as we explore the latest trends, tools,
-                                and techniques shaping the industry today. From responsive design principles to the
-                                importance of accessibility, you'll gain valuable insights and inspiration to elevate
-                                your design game. Whether you're a seasoned pro or just getting started, there's always
-                                something new to learn in the ever-evolving world of web design.</p>
-                        </div>
-                    </div>
-                </div>
-
+                <article class="stack-group">
+                    <h3>Platforms &amp; practice</h3>
+                    <ul class="tech-grid">
+                        <li>
+                            <img src="https://cdn.simpleicons.org/wordpress/21759B" alt="" width="32" height="32">
+                            <span>WordPress</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn.simpleicons.org/shopify/96BF48" alt="" width="32" height="32">
+                            <span>Shopify</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn.simpleicons.org/git/F05032" alt="" width="32" height="32">
+                            <span>Git</span>
+                        </li>
+                        <li>
+                            <span class="tech-fallback" aria-hidden="true">API</span>
+                            <span>REST APIs</span>
+                        </li>
+                    </ul>
+                </article>
             </div>
         </section>
 
-        <section class="container contact" id="contact">
-            <div class="contact-container">
-                <div class="main-title">
-                    <h2>Contact <span>Me</span></h2>
+        <section class="section about" id="about" aria-labelledby="about-title">
+            <div class="section-head">
+                <p class="eyebrow">About</p>
+                <h2 id="about-title">I own the product from the data layer to the screen</h2>
+            </div>
+            <div class="about-layout">
+                <div class="about-copy">
+                    <p>
+                        I am a full-stack developer based in Alexandria. For more than six years I have taken work
+                        from architecture through launch: database design, secure authentication, third-party
+                        integrations, and the interface on top.
+                    </p>
+                    <p>
+                        That includes hotel booking engines, social automation platforms, custom form builders,
+                        and e-commerce. I care about clean structure, response time, and software that a team can
+                        keep shipping after the first release.
+                    </p>
+                    <p>
+                        I work across React, Angular, and Vue on the front end, React Native and Flutter on mobile,
+                        and Node.js, Laravel, .NET, and Python on the server. WordPress and Shopify cover the
+                        commerce work.
+                    </p>
+                    <a class="btn btn-primary" href="CV-Omar.pdf" download="CV-Omar.pdf">
+                        <i class="fa-solid fa-download" aria-hidden="true"></i>
+                        Download CV
+                    </a>
                 </div>
-                <div class="contact-content-con">
-                    <div class="left-contact">
-                        <h4>Contact me here</h4>
-                        <p>
-                            Please feel free to message me via this link if you need more information or to talk to me
-                        </p>
-                        <div class="contact-info">
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    <span>Location</span>
-                                </div>
-                                <p>
-                                    : Alexandria, Egypt
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-envelope"></i>
-                                    <span>Email</span>
-                                </div>
-                                <p>
-                                    <span>: 987omar123osama456@gmail.com</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-user-graduate"></i>
-                                    <span>Education</span>
-                                </div>
-                                <p>
-                                    <span>: Damnhour University</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-phone"></i>
-                                    <span>Mobile Number</span>
-                                </div>
-                                <p style="width: 200px;">
-                                    <span>: 010-1693-4863</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-globe-africa"></i>
-                                    <span>Languages</span>
-                                </div>
-                                <p>
-                                    <span>: Arabic, English</span>
-                                </p>
-                            </div>
+                <ul class="stat-grid">
+                    <li>
+                        <strong>6+</strong>
+                        <span>Years building software</span>
+                    </li>
+                    <li>
+                        <strong>20+</strong>
+                        <span>Projects shipped</span>
+                    </li>
+                    <li>
+                        <strong>11</strong>
+                        <span>Production stacks</span>
+                    </li>
+                    <li>
+                        <strong>2</strong>
+                        <span>Languages: Arabic &amp; English</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section" id="work" aria-labelledby="work-title">
+            <div class="section-head">
+                <p class="eyebrow">Selected work</p>
+                <h2 id="work-title">Projects across the stack</h2>
+                <p>Live products and interface work. Open any card to visit the site.</p>
+            </div>
+            <div class="filters" role="toolbar" aria-label="Filter projects">
+                <button type="button" class="filter is-active" data-filter="all">All</button>
+                <button type="button" class="filter" data-filter="html">HTML &amp; CSS</button>
+                <button type="button" class="filter" data-filter="js">JavaScript</button>
+                <button type="button" class="filter" data-filter="angular">Angular</button>
+                <button type="button" class="filter" data-filter="react">React</button>
+                <button type="button" class="filter" data-filter="vue">Vue</button>
+                <button type="button" class="filter" data-filter="commerce">WordPress &amp; Shopify</button>
+            </div>
+            <div class="work-grid">
+                <article class="work-card" data-cat="html">
+                    <a href="https://omarosamaali.github.io/DashPro/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/project5.png" alt="Dashboard admin interface">
+                        <div class="work-meta">
+                            <h3>Dashboard Admin</h3>
+                            <span>HTML &amp; CSS</span>
                         </div>
-                        <div class="contact-icons">
-                            <div class="contact-icon">
-                                <a href="https://www.facebook.com/omar123456osama" target="_blank">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#" target="_blank">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="https://github.com/omarosamaali" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="https://www.linkedin.com/in/omarosama19/" target="_blank">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                            </div>
+                    </a>
+                </article>
+                <article class="work-card" data-cat="html">
+                    <a href="https://omarosamaali.github.io/Kasper-Creations/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/Screenshot (3747).png" alt="Kasper Creations website">
+                        <div class="work-meta">
+                            <h3>Kasper Creations</h3>
+                            <span>HTML &amp; CSS</span>
                         </div>
-                    </div>
-                    <div class="right-contact">
-                        <form action="" class="contact-form">
-                            <div class="input-control i-c-2">
-                                <input type="text" required placeholder="YOUR NAME">
-                                <input type="email" required placeholder="YOUR EMAIL">
-                            </div>
-                            <div class="input-control">
-                                <input type="text" required placeholder="ENTER SUBJECT">
-                            </div>
-                            <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
-                            </div>
-                            <div class="btn-con">
-                                <a href="CV-Omar.pdf" download="CV-Omar.pdf" class="main-btn">
-                                    <span class="btn-text">Download CV</span>
-                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
-                                </a>
-                            </div>
-                        </form>
-                    </div>
+                    </a>
+                </article>
+                <article class="work-card" data-cat="html">
+                    <a href="https://omarosamaali.github.io/Dragon-s-Tale/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/Screenshot (3748).png" alt="Dragon's Tale website">
+                        <div class="work-meta">
+                            <h3>Dragon's Tale</h3>
+                            <span>HTML &amp; CSS</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-cat="html">
+                    <a href="https://omarosamaali.github.io/Evolve-Social/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/Screenshot (3749).png" alt="Evolve Social website">
+                        <div class="work-meta">
+                            <h3>Evolve Social</h3>
+                            <span>HTML &amp; CSS</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-cat="html">
+                    <a href="https://omarosamaali.github.io/Template-Definitions/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/Screenshot (3750).png" alt="Template Definitions website">
+                        <div class="work-meta">
+                            <h3>Template Definitions</h3>
+                            <span>HTML &amp; CSS</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-cat="html">
+                    <a href="https://omarosamaali.github.io/Leon-Agency/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/Screenshot (3751).png" alt="Leon Agency website">
+                        <div class="work-meta">
+                            <h3>Leon Agency</h3>
+                            <span>HTML &amp; CSS</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-cat="js">
+                    <a href="https://omarosamaali.github.io/Moving-Model/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/project3.png" alt="Moving Model interactive page">
+                        <div class="work-meta">
+                            <h3>Moving Model</h3>
+                            <span>JavaScript</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-cat="js">
+                    <a href="https://omarosamaali.github.io/Electronic-Commerce/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/project4.png" alt="E-commerce storefront">
+                        <div class="work-meta">
+                            <h3>E-Commerce</h3>
+                            <span>JavaScript</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-cat="js">
+                    <a href="https://omarosamaali.github.io/CRUDMaster/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/project6.png" alt="CRUD application interface">
+                        <div class="work-meta">
+                            <h3>CRUD App</h3>
+                            <span>JavaScript</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-cat="angular">
+                    <a href="https://gym-coach-website.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/project1.png" alt="Gym coaching application">
+                        <div class="work-meta">
+                            <h3>Gym App</h3>
+                            <span>Angular</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-cat="angular">
+                    <a href="https://angular-real-estate.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/angular-project.png" alt="Real estate listing site">
+                        <div class="work-meta">
+                            <h3>Real Estate</h3>
+                            <span>Angular</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-cat="angular">
+                    <a href="https://dilimisourcing.myshopify.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/Screenshot (3744).png" alt="Watches of Dubai storefront">
+                        <div class="work-meta">
+                            <h3>Watches of Dubai</h3>
+                            <span>Angular</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-cat="react">
+                    <a href="https://healthallcare.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/React-project.png" alt="Health care website">
+                        <div class="work-meta">
+                            <h3>Health Care</h3>
+                            <span>React</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-cat="react">
+                    <a href="https://vue-realestate-website.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/p-7.png" alt="Start Travel website">
+                        <div class="work-meta">
+                            <h3>Start Travel</h3>
+                            <span>React</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-cat="react">
+                    <a href="https://teacherivanenglish.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/react-p.png" alt="Teacher Ivan English website">
+                        <div class="work-meta">
+                            <h3>Teacher Ivan English</h3>
+                            <span>React</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-cat="vue">
+                    <a href="https://kepixel.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/vue-project.png" alt="KePixel website">
+                        <div class="work-meta">
+                            <h3>KePixel</h3>
+                            <span>Vue</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-cat="vue">
+                    <a href="https://evolvetechsys.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/Screenshot (3774).png" alt="Evolve Tech website">
+                        <div class="work-meta">
+                            <h3>Evolve Tech</h3>
+                            <span>Vue</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-cat="vue">
+                    <a href="https://memory-1game.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/Screenshot (3777).png" alt="Memory game interface">
+                        <div class="work-meta">
+                            <h3>Memory Game</h3>
+                            <span>Vue</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-cat="commerce">
+                    <a href="https://wedata.agency/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/Screenshot (3778).png" alt="WeData Agency website">
+                        <div class="work-meta">
+                            <h3>WeData Agency</h3>
+                            <span>WordPress</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-cat="commerce">
+                    <a href="https://baby-yummy.com/ar/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/Screenshot (3779).png" alt="Baby Yummy store">
+                        <div class="work-meta">
+                            <h3>Baby Yummy</h3>
+                            <span>WordPress</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-cat="commerce">
+                    <a href="https://safymuscle.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/Screenshot (3780).png" alt="Safy Muscle website">
+                        <div class="work-meta">
+                            <h3>Safy Muscle</h3>
+                            <span>Shopify</span>
+                        </div>
+                    </a>
+                </article>
+            </div>
+            <p class="filter-empty" hidden>No projects in this group.</p>
+        </section>
+
+        <section class="section" id="experience" aria-labelledby="experience-title">
+            <div class="section-head">
+                <p class="eyebrow">Experience</p>
+                <h2 id="experience-title">Where I have shipped</h2>
+            </div>
+            <ol class="timeline">
+                <li>
+                    <p class="when">2024 — 2025</p>
+                    <h3>Senior Web Developer <span>AI Design Studio</span></h3>
+                    <p>Led front-end delivery for the company and shipped complex product interfaces.</p>
+                </li>
+                <li>
+                    <p class="when">2023 — 2024</p>
+                    <h3>Mid-Level Web Developer <span>Kepixel</span></h3>
+                    <p>Improved and built out the interface of multiple client products.</p>
+                </li>
+                <li>
+                    <p class="when">2022 — 2024</p>
+                    <h3>Web Developer <span>Rowmah ADS</span></h3>
+                    <p>Owned front-end improvements across a run of client projects.</p>
+                </li>
+                <li>
+                    <p class="when">2022 — 2023</p>
+                    <h3>Mid-Level Web Developer <span>AM Digital Solutions Inc</span></h3>
+                    <p>Worked with the team on complex builds and performance improvements.</p>
+                </li>
+                <li>
+                    <p class="when">2021 — 2022</p>
+                    <h3>Junior Web Developer <span>E-volve Tech System Inc</span></h3>
+                    <p>Responsible for front-end development across the company's projects.</p>
+                </li>
+                <li>
+                    <p class="when">2020 — 2021</p>
+                    <h3>Intern Web Developer <span>Rowmah ADS</span></h3>
+                    <p>Started in front-end, refining the look and structure of live projects.</p>
+                </li>
+            </ol>
+        </section>
+
+        <section class="section contact" id="contact" aria-labelledby="contact-title">
+            <div class="section-head">
+                <p class="eyebrow">Contact</p>
+                <h2 id="contact-title">Tell me about the product</h2>
+                <p>A short note is enough. I read every message and reply from Alexandria.</p>
+            </div>
+            <div class="contact-layout">
+                <ul class="contact-list">
+                    <li>
+                        <span>Location</span>
+                        <strong>Alexandria, Egypt</strong>
+                    </li>
+                    <li>
+                        <span>Email</span>
+                        <a href="mailto:987omar123osama456@gmail.com">987omar123osama456@gmail.com</a>
+                    </li>
+                    <li>
+                        <span>Phone</span>
+                        <a href="tel:+201016934863">010-1693-4863</a>
+                    </li>
+                    <li>
+                        <span>Education</span>
+                        <strong>Damanhour University</strong>
+                    </li>
+                    <li>
+                        <span>Languages</span>
+                        <strong>Arabic, English</strong>
+                    </li>
+                </ul>
+                <div class="contact-social">
+                    <a href="https://www.linkedin.com/in/omarosama19/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/omarosamaali" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.facebook.com/omar123456osama" target="_blank" rel="noopener noreferrer">Facebook</a>
                 </div>
+                <form class="contact-form" id="contact-form">
+                    <label>
+                        Name
+                        <input type="text" name="name" required autocomplete="name" maxlength="80">
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" name="email" required autocomplete="email" maxlength="120">
+                    </label>
+                    <label>
+                        Subject
+                        <input type="text" name="subject" required maxlength="120">
+                    </label>
+                    <label>
+                        Message
+                        <textarea name="message" required rows="6" maxlength="2000"></textarea>
+                    </label>
+                    <button class="btn btn-primary" type="submit">Send message</button>
+                    <p class="form-note" id="form-note" role="status"></p>
+                </form>
             </div>
         </section>
     </main>
 
-    <div class="controls">
-        <div class="control active-btn" data-id="home">
-            <i class="fas fa-home"></i>
-        </div>
-        <div class="control" data-id="about">
-            <i class="fas fa-user"></i>
-        </div>
-        <div class="control" data-id="portfolio">
-            <i class="fas fa-briefcase"></i>
-        </div>
-        <div class="control" data-id="blogs">
-            <i class="far fa-newspaper"></i>
-        </div>
-        <div class="control" data-id="contact">
-            <i class="fas fa-envelope-open"></i>
-        </div>
-    </div>
-    <div class="theme-btn">
-        <i class="fas fa-adjust"></i>
-    </div>
+    <footer class="site-footer">
+        <p>Omar Osama Ali · Full-Stack Developer</p>
+        <a href="#top">Back to top</a>
+    </footer>
+
     <script src="app.js"></script>
 </body>
 
